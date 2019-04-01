@@ -20,7 +20,7 @@ services:
 
   #service name
   app_matomo:
-    image: matomo:3.8.1
+    image: matomo:3.9.1
     restart: always
     links:
       - db
